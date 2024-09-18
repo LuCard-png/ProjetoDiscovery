@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="light">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,500;1,14..32,500&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Parte total dentro das margin do site-->
+    <div id="container">
+      <!-- foto de perfil mais o @-->
+      <div id="profile">
+        <img
+          src="./assets/Avatar.png"
+          alt="Foto de Lucas Cardoso, usando camisa preta, barba e fundo"
+        />
+        <p>@Hello World</p>
+      </div>
+      <div id="switch" onclick="toggleMode()">
+        <button></button>
+        <span> </span>
+      </div>
+      <!-- links-->
+      <ul>
+        <li>
+          <a href="https://github.com/" target="_blank"> Conheça meu GitHub </a>
+        </li>
+
+        <li>
+          <a href="https://www.instagram.com/lc.rodrigues/" target="_blank">
+            siga-me no Instagram</a
+          >
+        </li>
+
+        <li>
+          <a href="#" target="_blank">Acesse meu Linkedin</a>
+        </li>
+
+        <li>
+          <a href="#" target="_blank">siga-me no Facebook</a>
+        </li>
+      </ul>
+      <!--icones das redes sociais-->
+      <div id="social-links">
+        <a href="https://GitHub.com" target="_blank">
+          <ion-icon name="logo-github"></ion-icon
+        ></a>
+        <a href="https://www.instagram.com/lc.rodrigues/" target="_blank"
+          ><ion-icon name="logo-instagram"></ion-icon
+        ></a>
+
+        <a href="https://linkedin.com" target="_blank">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+        <a href="https://youtube.com" target="_blank">
+          <ion-icon name="logo-youtube"></ion-icon
+        ></a>
+      </div>
+    </div>
+    <footer>
+      Feito com ♥ pela <a href="https://Rocketseat.com.br">Rocketseat</a>
+    </footer>
+    <!-- script para adicionar os icones-->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
