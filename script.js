@@ -11,10 +11,10 @@ function toggleMode() {
       "Foto de uam gato branco cartoon, usando oculos escuro  e fundo azul"
     )
   } else {
-    img.setAttribute("src", "./assets/Avatargato.png")
+    img.setAttribute("src", "./assets/Avatargato-light.png")
     img.setAttribute(
       "alt",
-      "Foto de uam gato branco cartoon, usando oculos escuro quadrado e fundo amarelo"
+      "Foto de uam gato branco cartoon, usando oculos escuro  e fundo azul"
     )
   }
 }
