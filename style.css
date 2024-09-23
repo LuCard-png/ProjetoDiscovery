@@ -25,6 +25,7 @@
 }
 body {
   background: var(--bg-url) no-repeat top center/cover;
+  height: 100vh;
 }
 body * {
   font-family: "Inter", sans-serif;
@@ -69,7 +70,7 @@ body * {
 
   position: absolute;
   top: 50%;
-  left: 0;
+
   z-index: 1;
   transform: translateY(-50%);
 
