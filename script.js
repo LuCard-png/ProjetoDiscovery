@@ -8,13 +8,13 @@ function toggleMode() {
     img.setAttribute("src", "./assets/avatar.png")
     img.setAttribute(
       "alt",
-      "Foto de uam gato branco cartoon, usando oculos escuro  e fundo azul"
+      "Foto de Lucas Cardoso, usando camisa preta, barba e fundo"
     )
   } else {
     img.setAttribute("src", "./assets/avatar.png")
     img.setAttribute(
       "alt",
-      "Foto de uam gato branco cartoon, usando oculos escuro  e fundo azul"
+      "Foto de Lucas Cardoso, usando camisa preta, barba e fundo"
     )
   }
 }
